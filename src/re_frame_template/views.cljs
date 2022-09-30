@@ -4,6 +4,7 @@
    [re-frame-template.subs :as subs]
    ))
 
+
 (defn main-panel []
   (let [name (re-frame/subscribe [::subs/name])]
     [:div
